@@ -1,0 +1,113 @@
+.account {
+  min-height: 100vh;
+  background: url(../image/BackGround1.jpg) center/cover no-repeat fixed;
+  position: relative;
+}
+
+.login form {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  box-shadow: 20px 20px 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+@media screen and (max-width: 755px) {
+  .login form {
+    width: 95%;
+  }
+}
+.login form input {
+  background: #ffefd5;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding: 5px 0px;
+  margin: 3px 0px;
+}
+.login textarea {
+  background: #ffefd5;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding: 5px 0px;
+  margin: 3px 0px;
+}
+.login textarea[type="text"] {
+  text-align: center;
+}
+.login button {
+  width: 100%;
+  background: #ffefd5;
+  margin: 10px 0px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: bold;
+}
+
+.login a {
+  width: 100%;
+  color: white;
+  font-size: bold;
+}
+
+.login h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: bold;
+  color: #fff;
+}
+
+.login input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"] {
+  text-align: center;
+}
+
+.login input::-webkit-outer-spin-button,
+.login input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.login input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* this is for admin panel */
+
+.admin {
+  margin: 0px;
+  border: 0px;
+  padding: 100px 0;
+  min-height: 75vh;
+  background: radial-gradient(#c6d9ec, #527a7a);
+}
+
+.admin h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.block {
+  text-align: start;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  /* box-shadow: 20px 20px 50px; */
+  /* background-color: rgba(0, 0, 0, 0.3); */
+}
+.block form td {
+  padding: 5px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .admin {
+    width: 100%;
+  }
+  .admin h2 {
+    font-size: 1.5rem;
+  }
+}

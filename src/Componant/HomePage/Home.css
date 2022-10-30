@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@300&display=swap");
+.HomepageBackground {
+  width: 100%;
+  background: url(../image/Background\ 2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+.header h1 {
+  font-family: "Oswald", sans-serif;
+  color: #0d6efd;
+}
+
+.header p {
+  font-family: "Roboto", sans-serif;
+}
+.header h1,
+img {
+  margin-top: 30px;
+}
+.headerImg {
+  height: 400px;
+  width: 450px;
+}
+.services {
+  margin-top: 40px;
+}
+.services h3,
+h5 {
+  text-align: center;
+}
+.services h5 {
+  color: #0d6efd;
+}
+#skills {
+  padding: 40px;
+}
+
+.skill {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.fa {
+  color: #0d6efd;
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 70px;
+  transition: transform 0.5s ease-in, background 0.5s ease, color 0.5s ease;
+}
+
+.skill .fa:hover {
+  transform: scale(0.7);
+  background: #0d6efd;
+  color: #f5f5f5;
+}
+
+.skill h3 {
+  margin: 10px 0 15px 0;
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #0d6efd;
+}
+
+.skill p {
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}

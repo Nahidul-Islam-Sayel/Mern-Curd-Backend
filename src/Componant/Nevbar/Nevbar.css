@@ -1,0 +1,50 @@
+body {
+  font-family: "Oswald", sans-serif;
+}
+/* Navbar Style */
+nav {
+}
+.nav-logo {
+  font-size: 30px;
+  margin-left: 30px;
+}
+.navbar-logosite {
+  border-bottom: 0.25px solid white;
+}
+/* Navbar Style end */
+.nav-link {
+  font-size: 20px;
+  color: white;
+  margin: 10px;
+}
+.nav-link {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+
+.nav-link:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.nav-sarchbar {
+  display: inline;
+  margin-right: 60px;
+}
+.navlogo {
+  height: 50px;
+  width: 200px;
+}
